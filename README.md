@@ -40,7 +40,7 @@ Using `atlassian/gajira-login` and [GitHub secrets](https://docs.github.com/en/a
 
 - name: Create
   id: create
-  uses: tomhjp/gh-action-jira-create@v0.1.3
+  uses: griggi-ws/gh-action-jira-create@v0.1.3
   with:
     project: FOO
     issuetype: "Bug"
@@ -56,7 +56,7 @@ Using environment variables for authentication, and the `github` context to popu
 ```yaml
 - name: Create
   id: create
-  uses: tomhjp/gh-action-jira-create@v0.1.3
+  uses: griggi-ws/gh-action-jira-create@v0.1.3
   with:
     project: FOO
     issuetype: "Bug"

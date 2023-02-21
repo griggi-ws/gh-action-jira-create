@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/tomhjp/gh-action-jira/config"
-	"github.com/tomhjp/gh-action-jira/format"
-	"github.com/tomhjp/gh-action-jira/gha"
-	"github.com/tomhjp/gh-action-jira/jira"
+	"github.com/griggi-ws/gh-action-jira/config"
+	"github.com/griggi-ws/gh-action-jira/format"
+	"github.com/griggi-ws/gh-action-jira/gha"
+	"github.com/griggi-ws/gh-action-jira/jira"
 )
 
 func main() {
